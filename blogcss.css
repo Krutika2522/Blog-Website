@@ -1,0 +1,124 @@
+body{
+    width : 100%;
+    height: 100%;
+    margin : 0%;
+    font-family: "Gill Sans", sans-serif;
+}
+.personalinfo{
+    font-family: cursive;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: floralwhite;
+}
+.header{
+    background-color: black;
+    color: #fff;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+.inner-header{
+    width:80%;
+    margin:auto;
+}
+.leftcolumn{
+    float: left;
+    width: 75%;
+}
+.rightcolumn{
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
+.img1{
+    background-color: transparent;
+    padding: 20px;
+    margin-top : 20px;
+}
+.card{
+    background-color: #fff;
+    padding : 20px;
+    margin-top: 20px;
+}
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height:auto;
+}
+.row{
+    display: flex;
+}
+.img2{
+    border-radius: 50%;
+    width: 110px;
+}
+.horizontal-cards{
+    padding: 10px;
+    display: flex;
+}
+.carditem{
+    width: 25%;
+    /* background-color: aqua; */
+    margin: 7px;
+}
+.itemimage{
+    width: 310px;
+    height: 200px;
+}
+.Add-Blog{
+    /* background-color: aquamarine; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 30px;
+    border-radius: 20px;
+    height: 50%;
+    width: 200px;
+    margin-left: 20px;
+    display: none;
+    background-color:snow;
+}
+#show:checked ~ .Add-Blog{
+    display: block;
+}
+#show:checked ~ .show-btn{
+    display: none;
+}
+#show{
+    display: none;
+}
+.Add-Blog{
+    position: absolute;
+    transform: translate(369%, 0%);
+}
+.Blog-input{
+    margin-bottom: 20px;
+}
+.Blog-Button{
+    padding: 5px 10px 5px 10px;
+    border-radius: 20px;
+}
+.show-btn{
+    margin: 30px;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+.close-btn{
+ right: 30px;
+ position:absolute;   
+}
+.close-btn:hover{
+    color: red;
+}
+.show-btn:hover{
+    background-color:tan
+}
+#more {display: none;}
+.video{
+    display: flex;
+}

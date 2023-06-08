@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <title> Blog-Website </title>
+    <link rel="Stylesheet" type="text/css" href="blogcss.css">
+    <!-- <script>
+        function myFunction() {
+            var imglink = document.getElementById("input-link").value;
+            var title = document.getElementById("input-title").value;
+            var date = document.getElementById("input-date").value;
+            var desc = document.getElementById("input-desc").value;
+
+            document.getElementById("img").src = imglink;
+            document.getElementById("title").innerHTML = title;
+            document.getElementById("date").innerHTML = date;
+            document.getElementById("desc").innerHTML = desc;
+        }
+    </script> -->
+
+</head>
+
+<body>
+    <div class="header">
+        <div class="inner-header">
+            <center>
+                <p id="name" name="intro">
+                <h1>Welcome to Krutika's Travel Blog</h1>
+                </p>
+            </center>
+        </div>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2> SWAMI NARAYAN TEMPLE, PUNE</h2>
+                <h5> March 19, 2023</h5>
+                <a href="#">
+                    <image src="https://www.baps.org/Data/Sites/1/Media/ModuleRotatorImages/baps_pune_worldwide.jpg"
+                        alt="Temple Img" class="thumbnail" />
+                    <!-- <div class="img1" style="height:200px;">Image</div> -->
+                </a>
+                <p> The Mandir is about 184.6 feet Long by 181.6 feet Wide and 74.6 Feet High, Covering 33,523.36 Sq.ft.
+                    of Aera. Fully Stone Carved Without any Steel. It is Designed as Southern Shilpa Shaili by Sompura.
+                    The Mandir has 23 Samrans of Which 7 are Giant Ones Which Beautifies the Mandir from surroundings.
+                    Mandir is carved by hand Rajasthan and assembled in Lilburn like a giant 3-D puzzle. Mandir is set
+                    upon 140 Carved Pillars. It also has about 109 Beautiful Toran with 10,269 Carved Sculpture and
+                    Deities which is Representing the Heritage of Maharashtra and India. It represents True Devotion of
+                    Guruhari Pramukh Swami Maharaj, Guruhari Mahant Swami Maharaj and all Devoted Santo, Hari Bhakto.
+                    The Mandir is comprised of Indian pink Sandstone and Red Stone.</p>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2> About Me</h2>
+                <img class="img2"
+                    src="https://media.licdn.com/dms/image/D4D03AQF6xO3sDX-dGw/profile-displayphoto-shrink_800_800/0/1672115814122?e=1684972800&v=beta&t=5j9TWFNb175cqCpblUyHqQDjFxqKBvKdortRIzS_6uk"
+                    alt="">
+                <!-- <div class="img2" style="height:200px;">Image</div> -->
+                <p class="personalinfo"> Hello Friends!!<br />
+                    Myself Krutika Barad<br />
+                    I am travel Blogger<br />
+                    As well as Computer Engineer student<br />
+                    At DYPIT
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="horizontal-cards">
+        <div class="carditem">
+            <img class="itemimage"
+                src="https://static2.tripoto.com/media/filter/nl/img/317409/TripDocument/1535539699_img20180808131339.jpg"
+                alt="" srcset="">
+            <h2>Ramdara Temple</h2>
+            <h5>March 19, 2023</h5>
+            <p>Ramdara Temple: Very Scenic, ancient temple that was rebuilt in 1970 by Dhundhi Baba. It is devoted to
+                Lord Shiva and Goddess Parvaty. The temple is more famous for Ram, Sita and Lakshman and hence the name
+                Ramdara</p>
+        </div>
+        <div class="carditem">
+            <img class="itemimage" src="https://i.redd.it/dh6a7d8indt71.jpg" alt="" srcset="">
+            <h2>Iskon Temple</h2>
+            <h5>March 20, 2023</h5>
+            <p>Iskon Temple: ISKCON NVCC (New Vedic Cultural middle) is placed in the less congested place of Kondhwa
+                near Pune. ISKCON NVCC is a temple dedicated to Lord Krishna and Goddess Radha.<span
+                    id="dots">...</span><span id="more">The temple has lavish green hills in the heritage and provides
+                    its visitors with a first-rate ambience. once you input the prayer corridor, you'll be awe-struck
+                    through the beautiful idols of Lord Krishna and Goddess Radha. The idols are elegantly adorned with
+                    stunning clothes and colorful garlands. The ceilings of the dome and the partitions of the temple
+                    are artistically adorned with colourful artwork. The temple homes sports like young people education
+                    programmes and Bhagvat Gita analyzing lessons, women and own family empowerment activities, and so
+                    on. aside from being the residency of Radha, Krishna and Balaram</span></p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
+        </div>
+        <div class="carditem">
+            <img class="itemimage" id="img" style="display:bloc;">
+            <h2 id="title"></h2>
+            <h5 id="date"></h5>
+            <p id="desc"></p>
+        </div>
+        <input type="checkbox" name="" id="show">
+        <label for="show" class="show-btn">Add Blog</label>
+        <div class="Add-Blog">
+            <label for="show" class="close-btn">✗</label><br>
+            <label>Image Link</label><br>
+            <input id="input-link" class="Blog-input" type="text" /><br>
+            <label>Title</label><br>
+            <input id="input-title" class="Blog-input" type="text" /><br>
+            <label>Date</label><br>
+            <input id="input-date" class="Blog-input" type="text" /><br>
+            <label>Description</label><br>
+            <input id="input-desc" class="Blog-input" type="textfield" /><br>
+            <!-- <input type="submit" value="Add Blog" onclick="myFunction()"> -->
+            <button type="submit" id="submit">Add Blog</button>
+        </div>
+    </div>
+    <div class="video">
+        <video controls muted autoplay style="padding: 15px;" width="650px" height="365px">
+            <source src="videos/blog-video.mp4" type="video/mp4">
+            <script src="script.js"></script>
+        </video>
+        <div>
+            <h3>Links -</h3>
+        <a style="color: blue"
+            href="https://www.tripadvisor.in/Attraction_Review-g297654-d9792147-Reviews-Ramdara_Mandir-Pune_Pune_District_Maharashtra.html">https://www.tripadvisor.in/Attraction_Review-g297654-d9792147-Reviews-Ramdara_Mandir-Pune_Pune_District_Maharashtra.html</a>
+        </div>
+    </div>
+</body>
+
+</html>
